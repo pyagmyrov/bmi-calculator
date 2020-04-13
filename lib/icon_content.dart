@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'constants.dart';
 
 class InsideButton extends StatelessWidget {
   InsideButton({this.icon,this.label});
@@ -20,10 +20,8 @@ class InsideButton extends StatelessWidget {
         ),
         Text(
           label,
-          style: TextStyle(
-              color: Color(0xff8d8e98), 
-              fontSize: 18.0
-              ),
+          style: labelTextStyle,
+              
         ),
       ],
     );
